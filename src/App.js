@@ -11,7 +11,6 @@ function App() {
       <MyNav></MyNav>
       <MyJumbo></MyJumbo>
       <ProjectsContainer></ProjectsContainer>
-
     </>
   );
 }
