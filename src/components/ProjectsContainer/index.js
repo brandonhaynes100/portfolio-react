@@ -31,7 +31,7 @@ function ProjectsContainer() {
   return (
     <>
       <Container>
-        <h2>Projects</h2>
+        <h2 id="projects">Projects</h2>
 
         <CardDeck>
           {projectArrayOne.map((projectInfo) => {
