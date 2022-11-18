@@ -6,10 +6,6 @@ import MyJumbo from "./components/MyJumbo"
 import ProjectsContainer from "./components/ProjectsContainer"
 import Contact from "./components/Contact"
 
-// import React from 'react';
-import {ReactComponent as ReactLogo} from './logo.svg';
-
-
 function App() {
   return (
     <>
@@ -17,7 +13,6 @@ function App() {
       <MyJumbo></MyJumbo>
       <ProjectsContainer></ProjectsContainer>
       <Contact></Contact>
-      <ReactLogo />
     </>
   );
 }

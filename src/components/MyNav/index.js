@@ -39,12 +39,6 @@ function MyNav() {
           Hi, I'm Brandon - a web developer specializing in Reactjs. I began my coding journey studying Java, branching from there into C++, Python, and eventually JavaScript. Now I create websites for fun, profit, and glory.
         </Container>
       </Collapse>
-      {/* <Collapse in={openContact}>
-        <Container id="contact-icons">
-          <Contact></Contact>
-        </Container>
-
-      </Collapse> */}
     </>
   );
 }
