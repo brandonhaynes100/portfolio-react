@@ -6,6 +6,7 @@ function ProjectsContainer() {
 
   let projectArrayOne = [
     {
+      key: 0,
       image: "https://via.placeholder.com/150",
       title: "title",
       text: "text",
@@ -13,6 +14,7 @@ function ProjectsContainer() {
       githubLink: "https://www.google.com/"
     },
     {
+      key: 1,
       image: "https://via.placeholder.com/150",
       title: "title2",
       text: "text2",
@@ -20,6 +22,7 @@ function ProjectsContainer() {
       githubLink: "https://www.google.com/"
     },
     {
+      key: 2,
       image: "https://via.placeholder.com/150",
       title: "title3",
       text: "text3",
@@ -37,6 +40,7 @@ function ProjectsContainer() {
           {projectArrayOne.map((projectInfo) => {
             return (
               <ProjectCard
+                key={projectInfo.key}
                 image={projectInfo.image}
                 title={projectInfo.title}
                 text={projectInfo.text}
